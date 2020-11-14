@@ -1,0 +1,69 @@
+// -------------- Note for how to set up the program -----------------
+This file contains the intruction of how to use this application.
+
+For MAC system, on the same directory where the app.js file is located, do the following:
+npm install express.js
+npm install socket.io
+
+To run this application, on terminal, go the the directory where the app.js file is located, and then do:
+node app.js
+
+If you see listening on localhost:3000, that means the program runs fine. Go to the browser and type localhost:3000 and you will see the UI.
+// -------------- End of Note for how to set up the program -----------------
+
+
+
+
+
+// --------------- Note for how to change dataset ---------------------
+There are few dataset folders. In each folder, there are five files: blocks.json, circles.txt, edges.txt, feat.txt, featnames.txt
+Initially, there are these five files in the home directory(the directory where the app.js file is located). These five files belong to the dataset 3980 folder
+When you want to change to a new dataset, you have to first drag the five files in the home directory to the dataset 3980 folder,
+Then open any one of the dataset folders and then drag the five files to the home directory. 
+
+Just rememeber to put the five files back to the dataset folder that they come from before changing to another dataset.
+
+In case you forgot where to put the files back to, check out the README file in each of the dataset folder, it will tell you where to put the files.
+// --------------- End of Note for how to change dataset
+
+
+
+
+
+// --------------  Note for the node styling ----------------
+For the node styling functionality:
+SetNodeSize: You have to enter a positive integer number input.
+SetNodeVisibility: Type true or false in the input bar.
+SetNodeColor: You have to enter a color name
+// --------------  End of Note for the node styling ----------------
+
+
+
+
+
+// -------------  Note for link styling -----------------
+For the link styling functionality:
+SetLinkVisibility: Type true or false in the input bar.
+SetLinkColor: You have to enter a color name.
+SetLinkLineDash: You have to enter two positive values and seperate them by a comma
+SetLinkWidth: You have to enter a positive integer
+SetLinkCurvature: You have to enter a positive integer
+SetLinkDirectionalArrowLength: For the arrow to be visible, you have to enter a positive integer greater than 3
+SetLinkDirectionalArrowColor: You have to enter a color value
+SetLinkDirectionalArrowRelPos: You have to enter a floating number beteen 0 and 1
+SetLinkDirectionalParticles: You have to enter a positive integer
+SetLinkDirectionalParticleSpeed: You have to enter a floating number between 0.01 and 0.1
+SetLinkDirectionalParticleWidth: You have to enter an integer value
+SetLinkDirectionalParticleColor: You have to enter a color name
+// -------------  End of Note for link styling -----------------
+
+
+
+
+
+// --------------- Note for the google charts ----------------
+When you click on the line, the line will disappear. If you want the line to appear again, you can click on the small icon on the upper right conner of the chart 
+to make the line appear again.
+When you click on a specific node on the line, the whole line will remain the same, but other lines will become black. When you click the second time on the node,
+the color will become normal again. Meanwhile, you will not be able to select other node before the previous selected node's color has been changed back to normal.
+// ---------------- End of Note for the google charts
